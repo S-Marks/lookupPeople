@@ -1,0 +1,10 @@
+                                  Table "public.famous_people"
+   Column   |         Type          |                         Modifiers                          
+------------+-----------------------+------------------------------------------------------------
+ id         | bigint                | not null default nextval('famous_people_id_seq'::regclass)
+ first_name | character varying(50) | 
+ last_name  | character varying(50) | 
+ birthdate  | date                  | 
+Indexes:
+    "famous_people_pkey" PRIMARY KEY, btree (id)
+

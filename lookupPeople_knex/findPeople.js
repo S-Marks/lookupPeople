@@ -9,7 +9,7 @@ knex.select('*').from("famous_people")
     if (err) return console.error(err);
     console.log(rows);
     knex.destroy()
-})
+});
 
 knex.select('*').from("famous_people")
 .where('last_name', input)
@@ -17,4 +17,4 @@ knex.select('*').from("famous_people")
     if (err) return console.error(err);
     console.log(rows);
     knex.destroy()
-})
+});
